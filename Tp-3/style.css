@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  height: 400vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.flex {
+  display: flex;
+}
+
+.container {
+  padding: 50px 20px;
+  flex: 5;
+}
+
+.navigation {
+  height: 50px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  background-color: rgb(6, 6, 255);
+}
+
+.content {
+  flex: 1;
+  height: 100vh;
+  border: 3px solid salmon;
+  padding: 10px 20px;
+}
+p {
+  font-size: 20px;
+}

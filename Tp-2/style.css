@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color :white;
+}
+li{
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: grey;
+
+}
+
+
+.active a{
+    color:blue;
+    font-size: 18px;
+}
+
+.content {
+    display: none;
+}
+
+.content.active{
+    display: block;
+}
+ 
+

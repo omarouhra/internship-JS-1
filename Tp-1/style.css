@@ -1,0 +1,18 @@
+p{
+    font-size: 30px;
+    
+}
+#spoiler{
+    color:green;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+button{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
